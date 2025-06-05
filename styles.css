@@ -1,0 +1,26 @@
+*{
+    background-color: white;
+    margin-left: 5px;
+}
+body{
+    border-style: solid;
+    border-color: black;
+}
+.linkss {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.linkss img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.linkss img:hover {
+  transform: scale(1.1);
+}
